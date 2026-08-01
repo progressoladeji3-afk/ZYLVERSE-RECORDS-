@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0B0B0B;
+    color:#fff;
+    line-height:1.6;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#111;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    color:#D4AF37;
+    font-size:28px;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:20px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#D4AF37;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#D4AF37;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#D4AF37;
+    color:#000;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+section{
+    padding:80px 10%;
+}
+
+section h2{
+    text-align:center;
+    color:#D4AF37;
+    margin-bottom:30px;
+}
+
+.artist-card,
+.card{
+    background:#1a1a1a;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    margin:20px 0;
+}
+
+.artist-card img{
+    width:180px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,
+textarea{
+    padding:15px;
+    border:none;
+    border-radius:8px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#111;
+}
